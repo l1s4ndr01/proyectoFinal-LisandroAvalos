@@ -1,8 +1,23 @@
-body{
+/* body{
     background-color: blue ;
     color: white;
+} */
+.div-foto{
+    display: flex;
+    justify-content: center;
 }
 
-#demo {
-    color: red;
+.foto {
+    border-radius: 50%;
+  }
+
+.col-historial{
+    background-color: #CEE5FF;
+    color: #474F58;
 }
+
+.col-contacto{
+    background-color: #474F58;
+    color: #CEE5FF;
+}
+
