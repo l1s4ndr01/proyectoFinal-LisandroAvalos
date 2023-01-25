@@ -25,7 +25,7 @@ h2{
   }
 
 .col-historial{
-    background-color: #B1C4DB;
+    /* background-color: #B1C4DB; */
     color: #474F58;
 }
 
@@ -35,20 +35,22 @@ h2{
 }
 
 
-.anio{
-    color: #DDD3D9;
+.p-gris{
+    color: #B4B4B4;
 }
-/* .lugar{
 
-} */
-                            
-                            
-.nombre-cargo{
+                                            
+.p-negrita{
     font-weight: 700;
 }
-.nombre-empresa{
-    color: #92DB40;
+.p-color{
+    color: #B1C4DB;
 }
-/* .descripcion-cargo{
-
-} */
+.pnl-edu{
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+}
+.div-diploma{
+    display: flex;
+}
