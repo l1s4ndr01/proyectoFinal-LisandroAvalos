@@ -1,23 +1,54 @@
-/* body{
+body{
     background-color: blue ;
-    color: white;
-} */
-.div-foto{
-    display: flex;
-    justify-content: center;
+    color: white;   
+}
+.container{
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.88); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.88);
 }
 
+.div-foto{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: center;
+
+}
+
+h2{
+    text-decoration: overline 10%;
+}
 .foto {
+    width: 200px;
+
     border-radius: 50%;
   }
 
 .col-historial{
-    background-color: #CEE5FF;
+    background-color: #B1C4DB;
     color: #474F58;
 }
 
 .col-contacto{
     background-color: #474F58;
-    color: #CEE5FF;
+    color: #B1C4DB;
 }
 
+
+.anio{
+    color: #DDD3D9;
+}
+/* .lugar{
+
+} */
+                            
+                            
+.nombre-cargo{
+    font-weight: 700;
+}
+.nombre-empresa{
+    color: #92DB40;
+}
+/* .descripcion-cargo{
+
+} */
