@@ -23,9 +23,11 @@
 
 }
 
-/* h2{
-    text-decoration: overline 10%;
-} */
+
+.nombre, .apellido{
+    text-align:start;
+}
+
 .subtitulo{
     text-decoration: overline 10%;
 }
@@ -57,6 +59,14 @@
 .p-color{
     color: #B1C4DB;
 }
+
+.div-nombre-apellido{
+    display: flex;
+    /* flex-flow: row wrap; */
+    flex-direction: column;
+    justify-content: center;
+}
+
 .contenedor-edu{
     display: flex;
     flex-flow: row wrap;
