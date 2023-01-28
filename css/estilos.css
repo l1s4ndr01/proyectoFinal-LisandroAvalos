@@ -13,7 +13,7 @@
 }
 } */
 .div-cv{
-    padding: 10px;
+    padding: 20px;
 }
 .div-foto{
     padding-top: 10%;
@@ -28,7 +28,7 @@
     text-align:start;
 }
 
-.subtitulo{
+.subtitulo, .sub-cargo{
     text-decoration: overline 10%;
 }
 .foto {
@@ -43,8 +43,10 @@
 }
 
 .col-contacto{
+    margin-top: 10%;
     background-color: #474F58;
     color: #B1C4DB;
+    justify-content: center;
 }
 
 
@@ -57,7 +59,8 @@
     font-weight: 700;
 }
 .p-color{
-    color: #B1C4DB;
+    /* color: #B1C4DB; */
+    color:rgb(116, 194, 92);
 }
 
 .div-nombre-apellido{

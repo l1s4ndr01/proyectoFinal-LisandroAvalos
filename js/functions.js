@@ -19,6 +19,7 @@ const collection = document.getElementsByClassName('subtitulo');
 for (let i=0; i < collection.length; i++) {
 
     let nombreElemento = collection[i].id;
+    
 
     // a cada elemento le agrega la función que desplega/contrae el panel con la información
     
