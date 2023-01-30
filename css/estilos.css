@@ -1,9 +1,12 @@
+/*Fuentes*/
 
 .container{
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.88); 
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.88);
 }
-
+ p{
+    font-family: 'Work Sans', sans-serif;
+ }
 /* .container{
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.88); 
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.88);
@@ -25,8 +28,14 @@
 
 
 .nombre, .apellido{
-    text-align:start;
+    text-align:center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
 }
+
+/* .div-nombre-apellido{
+    margin-top: 10%;
+} */
 
 .subtitulo, .sub-cargo{
     text-decoration: overline 10%;
