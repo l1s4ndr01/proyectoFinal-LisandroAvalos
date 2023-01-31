@@ -2,6 +2,7 @@
  p{
     /* font-family: 'Work Sans', sans-serif; */
     font-family: 'Itim', cursive;
+    font-size: 10vh;
  }
  h1{
     /* font-family: 'Work Sans', sans-serif; */
@@ -14,8 +15,9 @@
     list-style:none;
 }
 .div-cv{
-    padding: 20px;
-    
+    padding: 5%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
     
 }
 .div-foto{
@@ -27,7 +29,9 @@
 
 }
 
-
+li > p{
+    width: 100%;
+}
 .nombre, .apellido{
     text-align:center;
    
@@ -64,6 +68,7 @@
     background-color: #474F58;
     color: #B1C4DB;
     justify-content: center;
+    min-height: 500px;
 }
 
 
@@ -87,6 +92,8 @@
     /* flex-flow: row wrap; */
     flex-direction: column;
     justify-content: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .contenedor-edu{
