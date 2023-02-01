@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Final - Curriculum Vitae</title>
+
+    <!--agregado CSS media query -->
+    <!-- <link rel="stylesheet" media="(max-width: 800px)" href="css/estilos.css" /> -->
     
     <!-- agregado de Open Graph -->
     <meta property="og:type" content="website" />
@@ -41,7 +44,7 @@
         <header class="cabecera"><h1>CURRICULUM VITAE</h1></header>
         <div class="div-body">
             <div class="row">
-                <div class="col-contacto col-4">
+                <div id="col-primera" class="col-contacto col-xs-0 col-sm-6 col-md-6 col-lg-4">
                     <div class="div-foto">
                         <img  class="foto" src="imgs/perfil.jpg" alt="" srcset="">
                     </div>
@@ -99,7 +102,7 @@
                     </div>
                 </div>
                     
-                <div class="col-historial col-8" >
+                <div id="col-segunda" class="col-historial col-xs-12 col-sm-6 col-md-6 col-lg-8" >
                     <div class="div-cv">
                         <h2 class="subtitulo" id="sobre-mi">Sobre mi</h2>
                         <div id="pnl-sobre-mi">
@@ -114,7 +117,7 @@
                                     <p>2001 - 2015</p>
                                     <p class="p-gris">Santa Fe, Argentina</p>
                                 </div>
-                                <div class="nombre-cargo col-4">
+                                <div class="nombre-cargo col-6">
                                     <p class="p-negrita">Desarrollador</p>
                                     <p class="p-color">Taringa</p>
                                     <p>Tareas Realizadas, Larchitecto delectus quo quasi, fugiat voluptatibus provident ipsum. Minus eveniet quasi doloremque laudantium quae?</p>
@@ -126,7 +129,7 @@
                                     <p>2015 - 2023</p>
                                     <p class="p-gris">Santa Fe, Argentina</p>
                                 </div>
-                                <div class="nombre-cargo col-4">
+                                <div class="nombre-cargo col-6">
                                     <p class="p-negrita">Lider Técnico</p>
                                     <p class="p-color">Mercado Libre</p>
                                     <p>Tareas Realizadas, Larchitecto delectus quo quasi, fugiat voluptatibus provident ipsum. Minus eveniet quasi doloremque laudantium quae?</p>
