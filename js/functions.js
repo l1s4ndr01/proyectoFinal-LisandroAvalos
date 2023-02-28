@@ -26,7 +26,6 @@ for (let i=0; i < collection.length; i++) {
     document.getElementById(nombreElemento).addEventListener('click', function () {
 
         let nombrePanel = "pnl-"+nombreElemento;
-        console.log("nombre de panel: "+nombrePanel);
         if(document.getElementById(nombrePanel).style.display == 'none'){
             document.getElementById(nombrePanel).style.display = 'contents';
         }
